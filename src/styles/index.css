@@ -1,12 +1,73 @@
 
-/* 
+main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/8e/c1/0f/8ec10f2ccdc0cd1d8dd638f1531c7b82.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    You can write your own styles here...
+.palo-superior{
+    flex-direction: column;
+    border: 0px solid black;
+    width: 20px;
+    height: 60px;
+    margin: 0px auto;
+    background-color: black;
+    border-radius: 2px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.caja-de-luces{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0px solid black;
+    border-radius: 15%;
+    align-items: center;
+    width: 80px;
+    height: 130px;
+    margin: 0px auto;
+    background-color: rgb(19, 19, 19);
+    
+}
+
+.caja-de-luces div{
+    border: 0.5px solid black;
+    width: 40px;
+    height: 35px;
+    margin-top: 6px;
+    border-radius: 90%;
+}
+.red{
+    background-color: red;
+    
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.light-on-red{
+    box-shadow: 0px 1px 100px 40px rgb(246, 113, 113);
+}
+.light-on-orange{
+    box-shadow: 0px 1px 100px 40px rgb(242, 151, 4);
+}
+.light-on-green{
+    box-shadow: 0px 1px 100px 40px rgb(67, 255, 10);
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    margin: 1% auto;
+    background-color: rgba(88, 40, 8, 0.338);
+    color: rgb(248, 214, 214);
+}
